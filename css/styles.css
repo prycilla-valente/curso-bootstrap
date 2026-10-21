@@ -1,0 +1,54 @@
+/* Estilos globais */
+body {
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.row {
+    margin: 0;
+}
+
+.container {
+    padding: 70px 0;
+}
+
+p, li {
+    color: #444;
+    font-size: 14px;
+}
+
+/* Barra de navegação */
+
+header, .navbar {
+    background-color: #353d41;
+
+}
+
+#nav-container {
+    padding-top: 0; 
+    padding-bottom: 0;
+}
+
+#logo {
+    width: 75px;
+}
+
+.navbar-brand {
+    padding: 0;
+    color: #fff;
+}
+
+.navbar-brand:hover {
+    color: #fff;
+}
+
+#navbar-links .navbar-nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 1rem .8rem; /* unidade de medidas que se adapta de acordo com a fonte da página e diferentes tamanhos de tela */
+
+
+}
