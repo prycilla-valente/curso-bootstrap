@@ -257,5 +257,51 @@ header, .navbar {
     
 }
 
+/* Portfolio */
+
+.project-box {
+    margin-bottom: 30px;
+}
+
+#filter-btn-box {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#portfolio-area .filter-btn {
+    color: #444;
+    border: 1px solid #444;
+    background-color: transparent;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+#portfolio-area .filter-btn {
+    color: #444;
+    border: 1px solid #444;
+    background-color: transparent;
+    border-color:#444;
+    text-transform: none;
+    margin: 0 15px;
+    min-width: 100px;
+    width: auto;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 20px;
+}
+
+#portfolio-area .filter-btn.active, #portfolio-area .filter-btn:hover {
+    color: #fff;
+    background-color: #65daf9;
+    border-color: #65daf9;
+    border: 1px solid #65daf9;
+}
+
+#portfolio-area .filter-btn:focus { /* Estilo de foco para os botões de filtro */
+    outline: #65daf9 solid 1px;
+    box-shadow: none;
+}
+
 
 
