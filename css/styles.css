@@ -12,20 +12,22 @@ body {
     padding: 70px 0;
 }
 
-p, li {
+p,
+li {
     color: #444;
     font-size: 14px;
 }
 
 /* Barra de navegação */
 
-header, .navbar {
+header,
+.navbar {
     background-color: #353d41;
 
 }
 
 #nav-container {
-    padding-top: 0; 
+    padding-top: 0;
     padding-bottom: 0;
 }
 
@@ -48,7 +50,8 @@ header, .navbar {
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
-    padding: 1rem .8rem; /* unidade de medidas que se adapta de acordo com a fonte da página e diferentes tamanhos de tela */
+    padding: 1rem .8rem;
+    /* unidade de medidas que se adapta de acordo com a fonte da página e diferentes tamanhos de tela */
 
 
 }
@@ -59,7 +62,8 @@ header, .navbar {
     padding: 0;
 }
 
-#mainSlider .carousel-inner,  #mainSlider .carousel-item {
+#mainSlider .carousel-inner,
+#mainSlider .carousel-item {
     height: 90vh;
 
 }
@@ -72,6 +76,7 @@ header, .navbar {
     font-size: 50px;
     margin-bottom: 30px;
 }
+
 #mainSlider .carousel-caption p {
     font-size: 22px;
     font-weight: 300;
@@ -116,16 +121,16 @@ header, .navbar {
     text-align: center;
 
 }
-    
+
 .main-title::after {
     content: '';
     border-top: 2px solid #333;
-    width: 150px;    
+    width: 150px;
     position: absolute;
     top: 60px;
     left: 50%;
     transform: translateX(-50%);
-    
+
 }
 
 .about-title {
@@ -148,7 +153,7 @@ header, .navbar {
 #about-list i {
     color: #65daf9;
     margin-right: 15px;
-   
+
 }
 
 /* Serviços */
@@ -158,7 +163,8 @@ header, .navbar {
     margin-bottom: 50px;
 }
 
-.service-box i, .service-box h4 {
+.service-box i,
+.service-box h4 {
     transition: .5s;
 }
 
@@ -173,7 +179,8 @@ header, .navbar {
     margin-bottom: 20px;
 }
 
-.service-box:hover i, .service-box:hover h4 {
+.service-box:hover i,
+.service-box:hover h4 {
     color: #65daf9;
 }
 
@@ -210,14 +217,15 @@ header, .navbar {
 
 }
 
-#apply-area .container-fluid, #apply-area .row {
+#apply-area .container-fluid,
+#apply-area .row {
     height: 100%;
 }
 
 #apply-area .apply-box {
     text-align: center;
     padding: 70px 50px;
-    
+
 }
 
 #company-img {
@@ -226,7 +234,8 @@ header, .navbar {
     height: 100%;
 }
 
-#pattern-img h4, #pattern-img p {
+#pattern-img h4,
+#pattern-img p {
     color: #fff;
 }
 
@@ -239,6 +248,7 @@ header, .navbar {
 #pattern-img p {
     margin-bottom: 20px;
 }
+
 #apply-btn {
     display: block;
     height: auto;
@@ -247,14 +257,14 @@ header, .navbar {
     margin-right: auto;
     margin-top: 30px;
     background-color: transparent;
-    border-color:#fff;
-    
+    border-color: #fff;
+
 }
 
 #apply-btn:hover {
     border-color: #65daf9;
     background-color: #65daf9;
-    
+
 }
 
 /* Portfolio */
@@ -281,7 +291,7 @@ header, .navbar {
     color: #444;
     border: 1px solid #444;
     background-color: transparent;
-    border-color:#444;
+    border-color: #444;
     text-transform: none;
     margin: 0 15px;
     min-width: 100px;
@@ -291,14 +301,16 @@ header, .navbar {
     padding: 0 20px;
 }
 
-#portfolio-area .filter-btn.active, #portfolio-area .filter-btn:hover {
+#portfolio-area .filter-btn.active,
+#portfolio-area .filter-btn:hover {
     color: #fff;
     background-color: #65daf9;
     border-color: #65daf9;
     border: 1px solid #65daf9;
 }
 
-#portfolio-area .filter-btn:focus { /* Estilo de foco para os botões de filtro */
+#portfolio-area .filter-btn:focus {
+    /* Estilo de foco para os botões de filtro */
     outline: #65daf9 solid 1px;
     box-shadow: none;
 }
@@ -321,7 +333,8 @@ header, .navbar {
     border-bottom-left-radius: 20px;
     border: 1px solid #65daf9;
     display: inline;
-    box-sizing: border-box; /* Inclui padding e border na largura e altura do elemento */
+    box-sizing: border-box;
+    /* Inclui padding e border na largura e altura do elemento */
     width: 40%;
     height: 40px;
 
@@ -335,9 +348,12 @@ header, .navbar {
     background-color: #65daf9;
     color: #fff;
     text-transform: uppercase;
-    height: 40px; /* Mantém a altura consistente com o input de email */
-    padding: 0 30px; /* Mantém o padding consistente com o input de email */
-    margin-left: -130px; /* Ajusta a posição do botão em relação ao input de email */
+    height: 40px;
+    /* Mantém a altura consistente com o input de email */
+    padding: 0 30px;
+    /* Mantém o padding consistente com o input de email */
+    margin-left: -130px;
+    /* Ajusta a posição do botão em relação ao input de email */
     position: absolute;
     transition: .5s;
 
@@ -358,7 +374,7 @@ header, .navbar {
 }
 
 #call-area .row {
-    display: block; 
+    display: block;
     text-align: center;
 
 }
@@ -391,9 +407,9 @@ header, .navbar {
     margin-left: 30px;
     width: auto;
     letter-spacing: 2px;
- 
-    
-   
+
+
+
 }
 
 #call-area #call-btn:hover {
@@ -410,29 +426,31 @@ header, .navbar {
 
 .contact-box {
     padding-bottom: 50px;
-    margin-bottom: 50px; /* Adiciona espaçamento inferior entre as caixas de contato */
-    border-bottom: 2px solid #3ec1d5; /* Adiciona uma linha de separação entre as caixas de contato */
+    margin-bottom: 50px;
+    /* Adiciona espaçamento inferior entre as caixas de contato */
+    border-bottom: 2px solid #3ec1d5;
+    /* Adiciona uma linha de separação entre as caixas de contato */
 }
 
 .contact-box i {
-  color: #444;
-  border: solid 1px #444;
-  border-radius: 50%;
-  width: 55px;
-  height: 55px;
-  line-height: 55px;
-  font-size: 24px;
-  margin-bottom: 20px;
+    color: #444;
+    border: solid 1px #444;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    font-size: 24px;
+    margin-bottom: 20px;
 }
 
 .contact-title {
     font-weight: bold;
-    color:#3ec1d5;
+    color: #3ec1d5;
 }
 
 #msg-box p {
     font-size: 22px;
-    
+
 }
 
 #contact-form input[type="text"],
@@ -444,11 +462,12 @@ header, .navbar {
 
 #contact-form .main-btn {
     width: 120px;
-    height: 50px; /* Mantém a altura consistente com os outros botões */
+    height: 50px;
+    /* Mantém a altura consistente com os outros botões */
 }
 
 #contact-form .main-btn:hover {
-   color: #3ec1d5;
+    color: #3ec1d5;
 }
 
 /* Copyright */
@@ -476,10 +495,10 @@ header, .navbar {
     color: #3ec1d5;
 }
 
-/* Responsividade */
+/* Responsividade tablet */
 
 @media (max-width: 768px) {
-   .container {
+    .container {
         padding: 20px 0;
     }
 
@@ -487,9 +506,11 @@ header, .navbar {
     #mainSlider .carousel-item {
         height: auto;
     }
-    #mainSlider .carousel-caption h2 {          
+
+    #mainSlider .carousel-caption h2 {
         font-size: 25px;
     }
+
     #mainSlider .carousel-caption p {
         font-size: 17px;
         margin-bottom: 40px;
@@ -526,8 +547,10 @@ header, .navbar {
 
     #news-area p {
         width: 80%;
-        margin-left: auto; /* centraliza horizontalmente */
-        margin-right: auto; /* centraliza horizontalmente */
+        margin-left: auto;
+        /* centraliza horizontalmente */
+        margin-right: auto;
+        /* centraliza horizontalmente */
     }
 
     #email-input {
@@ -535,7 +558,8 @@ header, .navbar {
     }
 
     #call-area {
-        margin-top: 30px; /* Adiciona espaçamento superior no call-area */
+        margin-top: 30px;
+        /* Adiciona espaçamento superior no call-area */
 
     }
 
@@ -546,6 +570,98 @@ header, .navbar {
     #call-area p,
     #call-area #call-btn {
         font-size: 16px;
+    }
+}
+
+/* Responsividade mobile */
+@media (max-width: 480px) {
+    #mainSlider {
+        margin-top: 90px;
+    }
+
+    #mainSlider {
+        top: 5%;
+    }
+
+    #mainSlider .carousel-caption h2 {
+        font-size: 16px;
+        margin-bottom: 40px;
+    }
+
+    #mainSlider .carousel-caption p {
+        display: none;
+    }
+
+    .carousel-caption .main-btn {
+        font-size: 14px;
+    }
+
+    .main-title {
+        font-size: 28px;
+    }
+
+    #about-area img {
+        margin-top: 0;
+        margin-bottom: 30px;
+    }
+
+    .circle-box {
+        width: 50%;
+    }
+
+    #data-area p {
+        font-size: 17px;
+    }
+
+    #team-area  .col-md-3 {
+        width: 50%;
+        margin-bottom: 25px;
+    }
+
+    #apply-area {
+      height: auto;
+    }
+
+    #company-img {
+        display: none;
+    }
+
+    #portifolio-area .filter-btn {
+        margin-bottom: 20px;
+     
+    }
+
+    .project-box {
+        width: 50%;
+    }
+
+    #news-area .main-title {
+        font-size: 24px;
+    }
+    
+    #news-area p {
+        font-size: 16px;
+    }
+    #email-input {
+        width: 80%;
+    }
+
+    #call-area p,
+    #call-area #call-btn {
+        font-size: 14px;
+        letter-spacing: 0;
+        margin: 0;
+        width: 50%;
+    }
+
+    .contact-box {
+       border: none;
+       margin-bottom: 0;
+    }
+
+    .contact-box p {
+        font-size: 14px;
+        margin: 0;
     }
 
 
